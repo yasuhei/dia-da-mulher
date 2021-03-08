@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a);
+}
+
+.nav h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 90px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 46px;
+}
+.principal {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  padding: 50px;
+  max-width: 460px;
+  margin: 0 auto;
+}
+ul li {
+  text-decoration: none;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul li h2 {
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
+ul li p {
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
+.quote {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* imagens */
+
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
